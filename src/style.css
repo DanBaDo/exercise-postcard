@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(63, 48, 66);
+    font-family: 'Patrick Hand', cursive;
 }
 
 main {
@@ -25,6 +26,16 @@ header {
     width: 100%;
 }
 
+article, aside, form {
+    display: flex;
+    flex-direction: column;
+}
+
+article, aside {
+    max-width: 50%;
+
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -35,12 +46,6 @@ header > img {
     max-height: 5em;
 }
 
-article, aside, form {
-    display: flex;
-    flex-direction: column;
-}
-
-article, aside {
-    max-width: 50%;
-
+button, input {
+    font-family: inherit;
 }
