@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 48, 66);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header > img {
+    max-height: 5em;
+}
+
+article, aside, form {
+    display: flex;
+    flex-direction: column;
+}
+
+article, aside {
+    max-width: 50%;
+
+}
